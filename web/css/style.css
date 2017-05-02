@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.wrap {
+  background: url('https://image.freepik.com/free-vector/abstract-background-with-a-watercolor-texture_1048-2144.jpg');
+  background-size: cover;
+  color: #6b6b6b;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+.wrap ::selection {
+  background: #e8f6f7;
+  color: #6b6b6b;
+}
+.wrap ::-webkit-selection {
+  background: #e8f6f7;
+  color: #6b6b6b;
+}
+.header {
+  background: #e8f6f7;
+}
+.nav a {
+  color: #6b6b6b;
+}
+.nav a:hover, .nav .active {
+  background: #f9f9f9 !important;
+}
+.footer {
+  background: #bccbd1;
+}
