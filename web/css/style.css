@@ -18,12 +18,44 @@
 .header {
   background: #e8f6f7;
 }
-.nav a {
+.navbar-nav a {
   color: #6b6b6b;
 }
-.nav a:hover, .nav .active {
+.navbar-nav a:hover, .navbar-nav .active {
   background: #f9f9f9 !important;
 }
 .footer {
   background: #bccbd1;
+}
+
+/*modal*/
+
+.modal-content {
+  border-radius: 0 !important;
+  border: none !important;
+  background: #f9f9f9 !important;
+}
+
+.modal-list {
+  list-style: none !important;
+}
+
+.modal-list li {
+  margin: 10px 0;
+}
+
+
+/*carousel*/
+
+.carousel, .carousel-inner {
+  height: 450px;
+}
+
+.carousel .item img{
+  margin: 0 auto;
+  height: 100%;
+}
+
+.carousel-control {
+  background-image: none !important;
 }
